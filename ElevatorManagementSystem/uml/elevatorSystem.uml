@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>main.ElevatorThread</OriginalElement>
+  <nodes>
+    <node x="369.5" y="-14.5">ui.mainDialog.Ui_MainWindow</node>
+    <node x="637.5" y="225.5">main.ElevatorThread</node>
+    <node x="-14.5" y="105.5">Queue.Queue</node>
+    <node x="189.0" y="25.5">main.Group</node>
+    <node x="408.0" y="225.5">threading.Thread</node>
+    <node x="380.0" y="345.5">main.ExtraElevatorThread</node>
+    <node x="571.5" y="105.5">typing.Hashable</node>
+    <node x="443.0" y="105.5">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="threading.Thread" target="object">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Queue.Queue" target="object">
+      <point x="54.5" y="-0.0" />
+      <point x="-37.0" y="-0.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable">
+      <point x="37.0" y="-0.0" />
+      <point x="-68.5" y="-0.0" />
+    </edge>
+    <edge source="main.ExtraElevatorThread" target="threading.Thread">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ui.mainDialog.Ui_MainWindow" target="object">
+      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="main.ElevatorThread" target="threading.Thread">
+      <point x="-82.5" y="-0.0" />
+      <point x="72.0" y="-0.0" />
+    </edge>
+    <edge source="main.Group" target="object">
+      <point x="0.0" y="14.5" />
+      <point x="240.0" y="112.0" />
+      <point x="-37.0" y="-8.0" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="1.0" x="394.0" y="180.0" />
+  <SelectedNodes>
+    <node>main.ElevatorThread</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+
